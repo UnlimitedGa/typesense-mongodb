@@ -97,7 +97,7 @@ async function main() {
         useNewUrlParser: true,
         useUnifiedTopology: true
     }
-    const uri = 'mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false';
+    const uri = 'mongodb+srv://anbalagang:YmaTDlINMTWC1szj@cluster0.6js9eta.mongodb.net/keydemand';
     const client = new MongoClient(uri, mongodbOptions);
     try {
         await client.connect();
